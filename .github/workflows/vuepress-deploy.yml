@@ -44,6 +44,5 @@ jobs:
           publish_dir: dist/
           external_repository: MyNetdisk/MyNetdisk.github.io
           publish_branch: master
-          cname: mynetdisk.top
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
