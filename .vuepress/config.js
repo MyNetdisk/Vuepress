@@ -21,7 +21,7 @@ module.exports = {
           var _hmt = _hmt || [];
           (function() {
             var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?b0aae218897fa9d8a9f76e9a77e0b3c6";
+            hm.src = "https://hm.baidu.com/hm.js?d08721e82650b9a83de6b7160610b4cc";
             var s = document.getElementsByTagName("script")[0]; 
             s.parentNode.insertBefore(hm, s);
           })();
