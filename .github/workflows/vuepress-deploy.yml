@@ -12,39 +12,39 @@ jobs:
   # 运行环境
     runs-on: ubuntu-latest
 
-  strategy:
-    matrix:
-      node-version: [12.x]
+    strategy:
+      matrix:
+        node-version: [12.x]
 
   # 各步的任务
-  steps:
-    # 使用某个Repo
-    - name: Checkout
-      uses: actions/checkout@v2
-      with: 
-        submodules: true
-        # fetch-depth: 0 
-        # 解决不能同时sync coding & gitee的问题
+    steps:
+      # 使用某个Repo
+      - name: Checkout
+        uses: actions/checkout@v2
+        with: 
+          submodules: true
+          # fetch-depth: 0 
+          # 解决不能同时sync coding & gitee的问题
     
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with: 
-        node-version: ${{ matrix.node-version }}
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with: 
+          node-version: ${{ matrix.node-version }}
 
-    # 构建静态文件
-    - run: npm ci
-    - run: npm run build --if-present
-      env:
-        CI: true
+      # 构建静态文件
+      - run: npm ci
+      - run: npm run build --if-present
+        env:
+          CI: true
 
-    # 部署到 Github Pages
-    - name: Deploy
-      uses: peaceiris/action-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        public_dir: dist/
-        external_repository: MyNetdisk/MyNetdisk.github.io
-        publish_branch: master
-        # cname: mynetdisk.github.io
-        user_name: "github-action[bot]"
-        user_email: "github-action[bot]@users.noreply.github.com"
+      # 部署到 Github Pages
+      - name: Deploy
+        uses: peaceiris/action-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          public_dir: dist/
+          external_repository: MyNetdisk/MyNetdisk.github.io
+          publish_branch: master
+          # cname: mynetdisk.github.io
+          user_name: "github-action[bot]"
+          user_email: "github-action[bot]@users.noreply.github.com"
