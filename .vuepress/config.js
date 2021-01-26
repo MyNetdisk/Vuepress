@@ -25,6 +25,15 @@ module.exports = {
             var s = document.getElementsByTagName("script")[0]; 
             s.parentNode.insertBefore(hm, s);
           })();
+        `], //百度统计
+    ['script', {}, `
+          var _hmt = _hmt || [];
+          (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?2dd95c19d0145124078369363e18124e";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+          })();
         `] //百度统计
   ],
   "locales": {
