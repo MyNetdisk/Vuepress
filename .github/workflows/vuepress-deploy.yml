@@ -39,7 +39,7 @@ jobs:
 
       # 部署到 Github Pages
       - name: Deploy
-        uses: peaceiris/action-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           public_dir: dist/
