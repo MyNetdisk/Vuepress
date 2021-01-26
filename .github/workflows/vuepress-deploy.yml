@@ -1,34 +1,33 @@
 # action 名字
 name: Vuepress Deploy
-# 触发条件，比如push pull_request等
+# 触发条件，比如 push pull_request 等
 on:
-  push: 
+  push:
     branches: [master]
   pull_request:
     branches: [master]
 
 jobs:
   build:
-  # 运行环境
+    # 运行环境
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
         node-version: [12.x]
 
-  # 各步的任务
+    # 各步的任务
     steps:
-      # 使用某个Repo
+      # 使用某个 Repo
       - name: Checkout
         uses: actions/checkout@v2
-        with: 
+        with:
           submodules: true
-          # fetch-depth: 0 
-          # 解决不能同时sync coding & gitee的问题
-    
+          # fetch-depth: 0 #解决不能同时sync coding & gitee的问题
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
-        with: 
+        with:
           node-version: ${{ matrix.node-version }}
 
       # 构建静态文件
@@ -38,13 +37,13 @@ jobs:
           CI: true
 
       # 部署到 Github Pages
-      - name: Deploy
+      - name: Deploy🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          public_dir: dist/
+          publish_dir: src/.vuepress/dist/
           external_repository: MyNetdisk/MyNetdisk.github.io
           publish_branch: master
-          # cname: mynetdisk.github.io
+          cname: mynetdisk.top
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
