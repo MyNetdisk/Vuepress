@@ -82,7 +82,7 @@ module.exports = {
       {
         "title": "zealsay静态博客",
         "desc": "vuepress_blog",
-        "logo": "https://pan.zealsay.com/blog/logo.png",
+        "logo": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
         "link": "https://www.zealsay.com"
       },
       {
