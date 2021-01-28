@@ -7,7 +7,7 @@ module.exports = {
       "link",
       {
         "rel": "icon",
-        "href": "https://pan.zealsay.com/blog/favicon.ico"
+        "href": "/favicon.ico"
       }
     ],
     [
@@ -157,13 +157,13 @@ module.exports = {
       }
     ],
     "covers": [
-      'https://pan.zealsay.com/zealsay/cover/7.jpg',
-      'https://pan.zealsay.com/zealsay/cover/1.jpg',
-      'https://pan.zealsay.com/zealsay/cover/2.jpg',
-      'https://pan.zealsay.com/zealsay/cover/3.jpg',
-      'https://pan.zealsay.com/zealsay/cover/4.jpg',
-      'https://pan.zealsay.com/zealsay/cover/5.jpg',
-      'https://pan.zealsay.com/zealsay/cover/6.jpg'
+      'https://images.mynetdisk.vercel.app/vuepress/7.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/1.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/2.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/3.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/4.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/5.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/6.jpg'
     ],
     "codeTheme": "tomorrow"
   },
