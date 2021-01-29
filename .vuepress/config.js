@@ -162,7 +162,7 @@ module.exports = {
       'https://images.mynetdisk.vercel.app/vuepress/2.jpg',
       'https://images.mynetdisk.vercel.app/vuepress/3.jpg',
       'https://images.mynetdisk.vercel.app/vuepress/4.jpg',
-      'https://images.mynetdisk.vercel.app/vuepress/5.jpg',
+      './avatar.jpg',
       'https://images.mynetdisk.vercel.app/vuepress/6.jpg'
     ],
     "codeTheme": "tomorrow"
