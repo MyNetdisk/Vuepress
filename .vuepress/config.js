@@ -157,13 +157,13 @@ module.exports = {
       }
     ],
     "covers": [
-      './banner/7.jpg',
-      './banner/1.jpg',
-      './banner/2.jpg',
-      './banner/3.jpg',
-      './banner/4.jpg',
-      './banner/5.jpg',
-      './banner/6.jpg'
+      'https://images.mynetdisk.vercel.app/vuepress/7.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/1.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/2.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/3.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/4.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/5.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/6.jpg'
     ],
     "codeTheme": "tomorrow"
   },
