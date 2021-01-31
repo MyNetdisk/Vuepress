@@ -20,17 +20,17 @@ tags:
 
 因为在我购买阿里云服务器时选择的系统配置是 windows server 2019 版本的，所以不能通过 ssh 来实现阿里云服务器与本地电脑实现 ssh 免密连接，进而也不能实现 github action 与阿里云服务器的免密连接。
 
-![选项卡](../../images/vuepress/031701.png)
+![选项卡](../../images/vuepress/2020/031701.png)
 
 最后的解决方案是更改阿里云服务器的系统配置。
 
-![选项卡](../../images/vuepress/031702.png)
+![选项卡](../../images/vuepress/2020/031702.png)
 
 更改服务器系统配置的具体操作如下：
 
-![选项卡](../../images/vuepress/031703.png)
-![选项卡](../../images/vuepress/031704.png)
-![选项卡](../../images/vuepress/031705.png)
+![选项卡](../../images/vuepress/2020/031703.png)
+![选项卡](../../images/vuepress/2020/031704.png)
+![选项卡](../../images/vuepress/2020/031705.png)
 
 ## 正文开始
 
@@ -38,17 +38,17 @@ tags:
 
 将生成的 ssh 公钥 public key 添加到 github 中：
 
-![选项卡](../../images/vuepress/031706.png)
-![选项卡](../../images/vuepress/031707.png)
-![选项卡](../../images/vuepress/031708.png)
+![选项卡](../../images/vuepress/2020/031706.png)
+![选项卡](../../images/vuepress/2020/031707.png)
+![选项卡](../../images/vuepress/2020/031708.png)
 
 遇到的主要问题
 
-![选项卡](../../images/vuepress/031709.png)
+![选项卡](../../images/vuepress/2020/031709.png)
 
 添加阿里云服务器.ssh 目录下的 ssh 私钥 private key 到 github 当前项目的 setting》secrets 中：
 
-![选项卡](../../images/vuepress/031710.png)
+![选项卡](../../images/vuepress/2020/031710.png)
 
 将公钥写入 authorized_keys 文件中的命令是：
 

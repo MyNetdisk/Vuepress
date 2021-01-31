@@ -6,6 +6,7 @@ categories:
 tags:
   - CI
   - Github
+cover: https://pan.zealsay.com/zealsay/cover/WechatIMG1.png
 ---
 
 ::: tip

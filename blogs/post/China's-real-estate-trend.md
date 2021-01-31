@@ -4,6 +4,7 @@ date: 2020-04-05
 categories: 生活与创作
 tags:
   - 房地产
+cover: https://pan.zealsay.com/mweb/blog/WechatIMG5.png
 ---
 
 ::: tip

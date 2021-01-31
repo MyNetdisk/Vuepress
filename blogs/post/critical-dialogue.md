@@ -5,6 +5,7 @@ categories:
   - 生活与创作
 tags:
   - 沟通
+sticky: 1
 ---
 
 ::: tip
