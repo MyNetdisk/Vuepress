@@ -9,7 +9,7 @@ tags:
 sidebar: "auto"
 author: 金旭亮
 sticky: 2
-cover: https://pan.zealsay.com/zealsay/cover/4.jpg
+cover: https://images.mynetdisk.vercel.app/vuepress/cover/4.jpg
 ---
 
 ::: tip

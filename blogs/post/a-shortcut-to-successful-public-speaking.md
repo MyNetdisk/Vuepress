@@ -5,7 +5,7 @@ categories:
   - 生活与创作
 tags:
   - 演讲
-cover: "../../images/vuepress/031702.png"
+cover: https://images.mynetdisk.vercel.app/vuepress/cover/WechatIMG11.png
 ---
 
 ::: tip

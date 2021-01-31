@@ -5,7 +5,7 @@ categories:
   - 前端技术
 tags:
   - docker
-cover: https://pan.zealsay.com/zealsay/cover/5.jpg
+cover: https://images.mynetdisk.vercel.app/vuepress/cover/5.jpg
 ---
 
 ::: tip

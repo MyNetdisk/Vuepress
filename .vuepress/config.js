@@ -157,13 +157,13 @@ module.exports = {
       }
     ],
     "covers": [
-      'https://images.mynetdisk.vercel.app/vuepress/7.jpg',
-      'https://images.mynetdisk.vercel.app/vuepress/1.jpg',
-      'https://images.mynetdisk.vercel.app/vuepress/2.jpg',
-      'https://images.mynetdisk.vercel.app/vuepress/3.jpg',
-      'https://images.mynetdisk.vercel.app/vuepress/4.jpg',
-      'https://images.mynetdisk.vercel.app/vuepress/5.jpg',
-      'https://images.mynetdisk.vercel.app/vuepress/6.jpg'
+      'https://images.mynetdisk.vercel.app/vuepress/covers/7.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/covers/1.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/covers/2.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/covers/3.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/covers/4.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/covers/5.jpg',
+      'https://images.mynetdisk.vercel.app/vuepress/covers/6.jpg'
     ],
     "codeTheme": "tomorrow"
   },

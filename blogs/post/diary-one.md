@@ -5,7 +5,7 @@ categories:
   - 生活与创作
 tags:
   - 日志
-cover: https://pan.zealsay.com/zealsay/cover/3.jpg
+cover: https://images.mynetdisk.vercel.app/vuepress/cover/3.jpg
 ---
 
 ::: tip
