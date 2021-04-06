@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vuepress dev .",
     "build": "vuepress build .",
-    "upcdn": "vuepress build . && node ./scripts/upcdn.js"
+    "upcdn": "vuepress build . && node ./scripts/upcdn.js",
+    "commit": "cz"
   },
   "devDependencies": {
     "commitizen": "^4.2.3",
